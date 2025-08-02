@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html LANG="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<form onsubmit= "formSubmit(event)">
+<div>
+    <label>FirstName</label>
+    <input id="firstName" type="text" />
+</div>
+
+<button type="submit">Submit</button>
+</form>
+</body>
+<script>
+    function formSubmit(event) {
+    event.preventDefault(); 
+    console.log("Click", document.getElementById("firstName").value);
+   
+sayHi(document.getElementById("firstName").value);
+    document.getElementById("firstName").value = "";
+}
+function sayHi(name) {
+    console.log(`Hi, ${name}`);
+}
+    
+</script>
+</html>

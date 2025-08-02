@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device
+width, initial-scale=1.0">
+ <title>Module 1 Exercise 3</title>
+ <style>
+ body { font-family: sans-serif; margin: 0; }
+ .container { display: flex; min-height: 
+100vh; align-items: stretch; }
+ .column { background: goldenrod; display: 
+flex; flex-direction: column; justify-content: 
+center; align-items: center; flex: 1; }
+ </style>
+ </head>
+ <body>
+ <div class="container">
+ <div class="column" id="column1">
+ <h1 id="heading1">Sun</h1>
+ <img src="https://cdn.pixabay.com/photo/2016/11/18/23/41/sun-1837376_1280.png" />
+ <button onclick="change()">Click Me</button>
+ </div>
+ <div class="column" id="column2">
+ <h1 id="heading2">Moon</h1>
+ <img src="https://img.freepik.com/premium-photo/moon-illustration_1115474-10920.jpg" />
+ <button onclick="change()">Click Me</button>
+ </div>
+
+ <script>
+
+let column1 = document.getElementById("column1");
+let heading1 = document.getElementById("heading1");
+
+function change() {
+column1.style.backgroundColor = "lightblue";
+column1.style.color = "white";
+column1.style.borderRadius = "10px";
+column1.innerHTML ="Galaxy";
+}
+
+function change() {
+column2.style.backgroundColor = "lightpink";
+column2.style.color = "purple";
+column2.style.borderRadius = "10px";
+column2.innerHTML ="Star";
+}
+</script>
+
+ </div>
+ </body>
+ </html>
