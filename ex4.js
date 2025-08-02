@@ -19,7 +19,4 @@ function divide(a, b) {
 }
 def greet(name) {
  return "Hello, " + name + "!";
-    return "Hello, "Juliana"!";
-    print(greet("Juliana"));
 }
-print(greet("Juliana"));

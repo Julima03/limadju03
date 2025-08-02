@@ -1,44 +1,43 @@
-/**
- * Adds two numbers and returns the result.
- * @param {number} a - First number
- * @param {number} b - Second number
- * @returns {number} Sum of a and b
- */
-function sum(a, b) {
-  return a + b;
+ // addition this function sums two numbers
+ function sum(a, b) {
+ return a + b
 }
 
-/**
- * Subtracts the second number from the first and returns the result.
- * @param {number} a - First number
- * @param {number} b - Second number
- * @returns {number} Result of a minus b
- */
+    // subtraction this function subtracts the second number from the first
 function subtract(a, b) {
-  return a - b;
+ return a - b
 }
 
-/**
- * Multiplies two numbers and returns the result.
- * @param {number} a - First number
- * @param {number} b - Second number
- * @returns {number} Product of a and b
- */
+// multiplication this function multiplies two numbers
 function multiply(a, b) {
-  return a * b;
+ return a * b
 }
 
-/**
- * Divides the first number by the second and returns the result.
- * Throws an error if division by zero is attempted.
- * @param {number} a - Numerator
- * @param {number} b - Denominator
- * @returns {number} Result of a divided by b
- * @throws {Error} If b is zero
- */
+// division this function divides the first number by the second
 function divide(a, b) {
-  if (b === 0) {
-    throw new Error("Cannot divide by zero");
-  }
-  return a / b;
+ return a / b
+}
+
+if (sum(2, 3) === 5) {
+  console.log("Sum function works correctly");
+} else {
+  console.log("Sum function is incorrect");
+}
+
+if (subtract(5, 3) === 2) {
+  console.log("Subtract function works correctly");
+} else {
+  console.log("Subtract function is incorrect");
+}
+
+if (multiply(2, 3) === 6) {
+  console.log("Multiply function works correctly");
+} else {
+  console.log("Multiply function is incorrect");
+}
+
+if (divide(6, 3) === 2) {
+  console.log("Divide function works correctly");
+} else {
+  console.log("Divide function is incorrect");
 }

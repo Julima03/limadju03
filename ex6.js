@@ -4,3 +4,9 @@ let book = {
   author: "Eckhart Tolle",
   pages: 224
 };
+console.log("Title:", book.title);
+console.log("Description:", book.description);
+console.log("Author:", book.author);
+console.log("Pages:", book.pages);
+
+book.description = "A comprehensive guide to clear and effective communicationn.";
