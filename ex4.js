@@ -17,6 +17,13 @@ function multiply(a, b) {
 function divide(a, b) {
  return a / b
 }
-def greet(name) {
+function greet(name) {
+
  return "Hello, " + name + "!";
 }
+console.log(greet("Juliana"));
+console.log(greet("Alice"));
+
+subtract(5, 3);
+console.log(subtract(5, 3));
+

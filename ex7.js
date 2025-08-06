@@ -19,25 +19,17 @@ function divide(a, b) {
 }
 
 if (sum(2, 3) === 5) {
-  console.log("Sum function works correctly");
-} else {
-  console.log("Sum function is incorrect");
-}
+  console.log("Ok");
+} 
 
 if (subtract(5, 3) === 2) {
-  console.log("Subtract function works correctly");
-} else {
-  console.log("Subtract function is incorrect");
-}
-
+  console.log("oK");
+} 
+  
 if (multiply(2, 3) === 6) {
-  console.log("Multiply function works correctly");
-} else {
-  console.log("Multiply function is incorrect");
-}
+  console.log("ok");
+} 
 
 if (divide(6, 3) === 2) {
-  console.log("Divide function works correctly");
-} else {
-  console.log("Divide function is incorrect");
-}
+  console.log("ok");
+} 

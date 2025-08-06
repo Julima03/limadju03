@@ -18,13 +18,13 @@ center; align-items: center; flex: 1; }
  <div class="container">
  <div class="column" id="column1">
  <h1 id="heading1">Sun</h1>
- <img src="https://cdn.pixabay.com/photo/2016/11/18/23/41/sun-1837376_1280.png" />
- <button onclick="change()">Click Me</button>
+ <img src="https://cdn.pixabay.com/photo/2016/11/18/23/41/sun-1837376_1280.png" width="300px"/>
+ <button onclick="changecolum1()">Click Me</button>
  </div>
  <div class="column" id="column2">
  <h1 id="heading2">Moon</h1>
- <img src="https://img.freepik.com/premium-photo/moon-illustration_1115474-10920.jpg" />
- <button onclick="change()">Click Me</button>
+ <img src="https://img.freepik.com/premium-photo/moon-illustration_1115474-10920.jpg" width="300px"/>
+ <button onclick="changecolum2()">Click Me</button>
  </div>
 
  <script>
@@ -32,14 +32,14 @@ center; align-items: center; flex: 1; }
 let column1 = document.getElementById("column1");
 let heading1 = document.getElementById("heading1");
 
-function change() {
+function changecolum1() {
 column1.style.backgroundColor = "lightblue";
 column1.style.color = "white";
 column1.style.borderRadius = "10px";
 column1.innerHTML ="Galaxy";
 }
 
-function change() {
+function changecolum2() {
 column2.style.backgroundColor = "lightpink";
 column2.style.color = "purple";
 column2.style.borderRadius = "10px";
